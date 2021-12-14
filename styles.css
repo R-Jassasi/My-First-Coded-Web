@@ -1,12 +1,15 @@
 
 
 header {
+      
 
-    margin: 0;
+    margin: 0 auto 0;
+    padding: 0 auto 0;
 
     /* https://alvarotrigo.com/blog/how-to-create-websites-fullscreen-sections-html-and-css/ */
     /* FULLSCREEN */
-   height: 100vh;
+   min-height: 100vh;
+   min-width: 100vh;
     
 }
 
@@ -34,6 +37,16 @@ header {
 body{
     
     background-color: #121212;
+    margin: 0;
+}
+
+
+main{
+
+    min-width: 100%;
+    min-height: 100%;
+    margin: auto 0 auto;
+    padding: auto 0 auto;
 }
     
     
@@ -44,7 +57,7 @@ h1,h2,h3,h4,h5,h6 {
     color: white;
     font-family: "Futura PT";
     text-align: center;
-    margin: auto;
+    margin: 0;
 
 
 }
@@ -52,8 +65,8 @@ h1,h2,h3,h4,h5,h6 {
 h1{
     text-align: center;
     font-size: 100px;
-    margin: auto;
-    padding: 300px;
+    margin: 0;
+    padding-top: 300px;
 }
 
 
@@ -62,6 +75,14 @@ p {
     color: white;
     font-family: "Futura PT";
     font-size: 20px;
+    margin: auto;
+}
+
+.image{
+      position: relative;
+      padding: 0;
+      margin: 0;
+      display: flex;
 }
     
     
@@ -73,22 +94,24 @@ p {
     
     
 nav {
-    margin: 0 auto 0;
+    margin: 0 0 0;
+    padding: 0 0 0 0;
 
     position: relative;
+    display: block;
     top: 0;
     float: right;
-    width: 860px;
-    height: 50px;
+    min-width: 860px;
+    min-height: 50px;
     border-radius: 8px;
     font-size: 0;
 }
 
 nav a {
       line-height: 50px;
-      height: 100%;
+      min-height: 100%;
       font-size: 18px;
-      font-family: "futura-pt", sans-serif;
+      font-family: "futura-pt";
       font-weight: 400;
       display: inline-block;
       position: relative;
@@ -169,6 +192,6 @@ nav .start-contact, a:nth-child(7):hover~.animation {
     position: sticky;
     top: 0;
     right: 0;
-    padding: 0,auto;
+    display: inline;
 }
 
