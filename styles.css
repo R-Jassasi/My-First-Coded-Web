@@ -3,8 +3,7 @@
 header {
       
 
-    margin: 0 auto 0;
-    padding: 0 auto 0;
+    padding: 10px 0px 10px 0px;
 
     /* https://alvarotrigo.com/blog/how-to-create-websites-fullscreen-sections-html-and-css/ */
     /* FULLSCREEN */
@@ -45,8 +44,8 @@ main{
 
     min-width: 100%;
     min-height: 100%;
-    margin: auto 0 auto;
-    padding: auto 0 auto;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
 }
     
     
@@ -94,8 +93,9 @@ p {
     
     
 nav {
-    margin: 0 0 0;
+    margin: 10px 0 0;
     padding: 0 0 0 0;
+    background-color: rgba(0,0,0, 50%);
 
     position: relative;
     display: block;
@@ -131,25 +131,38 @@ nav .animation {
       border-radius: 8px;
 }
 a:nth-child(1) {
-      width: 110px;
+      min-width: 110px;
+      min-height: 50px;
 }
 a:nth-child(2) {
-      width: 110px;
+      min-width: 110px;
+      min-height: 50px;
+
 }
 a:nth-child(3) {
-      width: 110px;
+      min-width: 110px;
+      min-height: 50px;
+
 }
 a:nth-child(4) {
-      width: 160px;
+      min-width: 160px;
+      min-height: 50px;
+
 }
 a:nth-child(5) {
-    width: 100px;
+    min-width: 100px;
+    min-height: 50px;
+
 }
 a:nth-child(6) {
-      width: 160px;
+      min-width: 160px;
+      min-height: 50px;
+
 }
 a:nth-child(7) {
-      width: 110px;
+      min-width: 110px;
+      min-height: 50px;
+
 }
 nav .start-home, a:nth-child(1):hover~.animation {
       width: 110px;
@@ -189,9 +202,9 @@ nav .start-contact, a:nth-child(7):hover~.animation {
 
 .sticky{
 
-    position: sticky;
+    position: sticky; 
     top: 0;
     right: 0;
-    display: inline;
+    
 }
 
