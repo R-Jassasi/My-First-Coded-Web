@@ -237,15 +237,12 @@ nav .start-contact, a:nth-child(7):hover~.animation {
     font-weight: 300;
     line-height: 1.6;
     padding: 10px 20px 10px 20px;
-      
-    /* to make the text verically centered */
     display: flex;
     justify-content: center;
     align-items: center;
     height: auto;
 }
 
-/* flipping content attempet */
     
 .media-container-flipped-home{
     display: flex;
