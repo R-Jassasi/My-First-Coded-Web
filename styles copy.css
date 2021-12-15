@@ -117,12 +117,10 @@ h6{
       
 p {
       color: white;
-      font-family: "roboto", sans-serif;
-      text-align: center;
-      font-size: 16px;
+      font-family: "Futura PT";
+      text-align: left;
       font-weight: 300;
       line-height: 1.6;
-      letter-spacing: 3px;
       padding: 10px 100px 10px 100px;
 }
 
@@ -266,17 +264,121 @@ nav .start-contact, a:nth-child(6):hover~.animation {
 
 /* HOME */
 
-
-    
-.mediacontent-home{
-
-      color: white;
-      font-family: "roboto", sans-serif;
-      text-align: right;
-      font-weight: 300;
-      line-height: 1.6;
-      padding: 10px 20px 10px 20px;
+.section-one {
+        background-color: blueviolet;
         
+        
+}
+    
+.flexgrow-container {
+        display: flex;
+}
+    
+.box1 {
+        background-color: skyblue;
+        
+        height: 200px;
+        flex: 1 1 auto;
+    
+}
+    
+.box2 {
+    
+        background-color: lightgreen;
+        
+        height: 200px;
+        flex: 1 1 auto;
+}
+    
+.box3 {
+    
+        background-color: darkmagenta;
+        
+        height: 200px;
+        flex: 1 1 auto;
+    
+}
+    
+    /* section 2 center item */
+    
+.section-two {
+        background-color:  #BF0426;
+        height: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+}
+    
+    /* section 3 youtube video */
+    
+.section-three {
+        background-color: #D95A11;
+        height: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+}
+    
+iframe { 
+        padding: 5px;
+}
+    
+    
+    /* section 4 embed audio */
+    
+.section-four {
+        background-color: #BF0426;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+}
+    
+.section-four {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+    
+.cor-blimey{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+    
+}
+    
+    /* section 5 media items */
+    
+.section-five {
+        background-color: #D95A11;
+    
+}
+    
+.media-container{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding: 15px 25px 15px 25px;
+} 
+    
+.media-container .mediacontent{
+        flex: 1;
+        padding: 10px;
+} 
+    
+.mediacontent{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: navy;
+        font-size: 20px;
         /* to make the text verically centered */
         display: flex;
         justify-content: center;
@@ -284,26 +386,45 @@ nav .start-contact, a:nth-child(6):hover~.animation {
         height: auto;
     
 }
-
-.mediaimage-home{
-        
-}
     
-    /* flipping content attempet */
+    /* flipping content attempe */
     
-.media-container-flipped-home{
+.media-container-flipped{
         display: flex;
         justify-content: flex-start;
         flex-wrap: wrap;
-        padding: 30px 80px 30px 80px;
+        padding: 15px 25px 15px 25px;
         flex-direction: row-reverse;
 }
     
-.media-container-flipped-home .mediacontent-home{
+.media-container-flipped .mediacontent{
         flex: 1;
-        padding: 70px;
+        padding: 10px;
 } 
-
+    
+button{
+        border: 1px solid blueviolet;
+        border-radius: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: large;
+        padding: 10px;
+        margin: 2px;
+        transition-duration: 4s;
+}
+    
+button:hover{
+        background-color: limegreen;
+        color: white;
+} 
+    
+button:active {
+        background-color:#3e8e41;
+        box-shadow: 0px darkred;
+        transform: translateY(4px);
+        transition-duration: 0.5s;
+    
+}
+    
     
   
   
@@ -333,110 +454,4 @@ nav .start-contact, a:nth-child(6):hover~.animation {
       flex-wrap: wrap;
       
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer{
-       
-        background-color: black;
-        padding: 10 0 10;
-        margin-top: 50px;
-
-}
-
-.footer-text{
-        font-family: roboto,sans-serif;
-        font-weight: 300;
-        font-size: 12px;
-        letter-spacing: 3px;
-        margin:0px 0 19px;
-
-}
-
-
-
-/* icons */
-/* https://www.w3schools.com/icons/default.asp  */
-
-.fa-icons{
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-}
-
-
-.fa {
-        padding: 8px;
-        font-size: 10px;
-        text-align: center;
-        margin: 15px 25px 0px;
-        border-radius: 50%;
-}
-
-
   
-
-.fa-twitter {
-
-        color: white;
-}
-
-.fa-instagram {
-        color: white;
-        
-}
-
-.fa-linkedin{
-        color: white;
-}
-
-
-
-
-.fa-twitter:hover {
-        background: #55ACEE;
-        color: white;
-        transition: 1s ease;
-}
-
-.fa-instagram:hover {
-        background: #9801b6;
-        color: white;
-        transition: 1s;
-        transition: 1s ease;
-}
-
-.fa-linkedin:hover{
-        background: #007bb5;
-        color: white;
-        transition: 1s;
-        transition: 1s ease;
-
-}
-      
-
-      
