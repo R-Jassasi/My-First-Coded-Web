@@ -284,3 +284,56 @@ nav .start-contact, a:nth-child(7):hover~.animation {
     flex-wrap: wrap;
     
 }
+
+footer{
+       
+    background-color: black;
+    padding: 10 0 10;
+    margin-top: 50px;
+}
+
+.footer-text{
+    font-family: roboto,sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin:0px 0 19px;
+
+}
+
+/* icons */
+/* https://www.w3schools.com/icons/default.asp  */
+
+.fa-icons{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa {
+    padding: 8px;
+    font-size: 10px;
+    text-align: center;
+    margin: 15px 25px 0px;
+    border-radius: 50%;
+    color: white;
+}
+
+.fa-twitter:hover {
+    background: #55ACEE;
+    color: white;
+    transition: .4s ease;
+}
+
+.fa-instagram:hover {
+    background: #9801b6;
+    color: white;
+    transition: .4s ease;
+}
+
+.fa-linkedin:hover{
+    background: #007bb5;
+    color: white;
+    transition: .4s ease;
+}
