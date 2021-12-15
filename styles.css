@@ -126,7 +126,14 @@ p {
       padding: 10px 100px 10px 100px;
 }
 
+.p-left{
 
+}
+
+
+.p-right{
+
+}
   
 
       
@@ -278,7 +285,9 @@ nav .start-contact, a:nth-child(6):hover~.animation {
     
 }
 
-
+.mediaimage-home{
+        
+}
     
     /* flipping content attempet */
     
