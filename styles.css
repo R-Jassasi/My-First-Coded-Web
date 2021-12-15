@@ -1,4 +1,8 @@
-
+*{
+      box-sizing: border-box;
+      border-color: violet;
+      border-width: 3px;
+}
 
 header {
       
@@ -289,10 +293,11 @@ nav .start-contact, a:nth-child(6):hover~.animation {
 
 /* TYPO */
 
-.typo-gallary{
+.typo-gallery{
 
-      display: grid;
-      grid-template-rows: auto;
-      grid-template-columns: auto;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      
 }
   
