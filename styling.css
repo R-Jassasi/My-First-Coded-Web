@@ -1,14 +1,17 @@
 header {
       
 
-    padding: 10px 0px 10px 0px;
+  padding: 10% 0 10% 0;
 
     /* https://alvarotrigo.com/blog/how-to-create-websites-fullscreen-sections-html-and-css/ */
     /* FULLSCREEN */
-   min-height: 100vh;
-   min-width: 100%;
+  min-height: 100vh;
+  min-width: 100%;
     
 }
+
+
+
 
 /* https://www.youtube.com/watch?v=G6SwH0lFxM8&ab_channel=EasyTutorials */
 .bg-vid{
@@ -43,7 +46,7 @@ h1,h2,h3,h4,h5,h6 {
 
 h1{
     text-align: center;
-    font-size: 7vw;
+    font-size: 110px;
     margin: 0;
     padding-top: 300px;
 }
@@ -51,7 +54,7 @@ h1{
 
 h2{
       text-align: center;
-      font-size: 4vw;
+      font-size: 50px;
       font-weight: 500;
       margin: 0;
       padding-top: 50px;
@@ -81,7 +84,7 @@ h4{
 
 h5{
       text-align: center;
-      font-size: 2vw;
+      font-size: 30px;
       font-weight: 300;
       margin: 0;
       padding-top: 30px;
@@ -134,8 +137,6 @@ p {
     margin: auto;
 }
 
-
-
 /* NAVIGATION https://www.sliderrevolution.com/resources/css-menu/ */
       
       
@@ -148,10 +149,30 @@ nav {
     display: block;
     top: 0;
     float: right;
-    min-width: 860px;
+    width: 860px;
     min-height: 50px;
     border-radius: 8px;
     font-size: 0;
+}
+
+@media only screen and (max-width: 860px) {
+  nav {
+    display: flex;
+    float: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 100%;
+    
+  }
+  
+  nav a{
+    border-bottom: 1px solid white;
+    
+  }
+
+  nav .animation{
+    display: none;
+  }
 }
 
 nav a {
