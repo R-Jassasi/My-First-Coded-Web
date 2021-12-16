@@ -131,6 +131,7 @@ p {
     flex-wrap: wrap;
     width: 100%;
     padding: 0px 20px 0px 20px;
+    margin: auto;
 }
 
 /* NAVIGATION https://www.sliderrevolution.com/resources/css-menu/ */
@@ -322,7 +323,7 @@ div.desc {
   text-align: center;
   color: white;
   font-family: "roboto", sans-serif;
-  font-weight: 600;
+  font-weight: 300;
   line-height: 1.6;
   text-transform: uppercase;
 }
@@ -402,8 +403,9 @@ div.desc {
 .text-typo-mini-gal {
   color: white;
   font-family: "roboto";
+  text-align: center;
   font-size: 16px;
-  padding: 16px 32px;
+  padding: auto;
 }
 
 
