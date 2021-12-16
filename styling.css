@@ -119,7 +119,7 @@ p {
     justify-content: center;
     flex-direction: column;
     height: 100%;
-    padding: 20px 0 20px 0;
+    padding: 10px 0 10px 0;
 }
 
 
@@ -132,6 +132,11 @@ p {
     width: 100%;
     padding: 0px 20px 0px 20px;
     margin: auto;
+}
+
+.padding100{
+    padding: 10px 0 100px 0;
+
 }
 
 /* NAVIGATION https://www.sliderrevolution.com/resources/css-menu/ */
@@ -358,7 +363,7 @@ div.desc {
 }
 
 #typo-gallery{
-    margin: auto 15% auto 15%;
+    margin: 10% 15% auto 15%;
 }
 
 #typo-gallery-mini{
