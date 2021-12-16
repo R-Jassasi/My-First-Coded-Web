@@ -159,14 +159,13 @@ nav {
   nav {
     display: flex;
     float: none;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     max-width: 100%;
-    
   }
   
   nav a{
-    border-bottom: 1px solid white;
+    border-right: 1px solid white;
     
   }
 
@@ -280,7 +279,7 @@ nav .start-contact, a:nth-child(7):hover~.animation {
     text-align: right;
     font-weight: 300;
     line-height: 1.6;
-    padding: 10px 20px 10px 20px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -290,15 +289,16 @@ nav .start-contact, a:nth-child(7):hover~.animation {
     
 .media-container-flipped-home{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 30px 80px 30px 80px;
+    padding: 50px 30px 50px 30px;
+    margin: 30px 50px 30px 50px;
     flex-direction: row-reverse;
 }
 
 .media-container-flipped-home .mediacontent-home{
-    flex: 1;
-    padding: 70px;
+    flex: 1 ;
+    padding: 50px;
 } 
 
 
