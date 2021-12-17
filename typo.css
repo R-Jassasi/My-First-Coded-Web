@@ -1,0 +1,119 @@
+
+/* TYPO */
+
+/* responsive gallery */
+/* https://www.w3schools.com/css/css3_images.asp */
+
+div.gallery {
+  border: 0;
+  padding: auto 5px auto 5px;
+}
+
+div.gallery:hover {
+  transform: scale(0.9, 0.9);
+  transition-duration: .4s;
+  transition-timing-function: ease-in-out;
+ 
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-family: "roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#typo-gallery{
+    margin: 10% 15% auto 15%;
+}
+
+#typo-gallery-mini{
+    margin: auto 15% auto 15%;
+}
+
+.container-typo-mini-gal {
+  position: relative;
+  width: 400px;
+  padding: 20px 40px 20px 40px;
+  
+}
+
+/* mini gallery */
+/* https://www.w3schools.com/css/css3_images.asp */
+.image-typo-mini-gal {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle-typo-mini-gal {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container-typo-mini-gal:hover .image-typo-mini-gal {
+  opacity: 0.3;
+}
+
+.container-typo-mini-gal:hover .middle-typo-mini-gal {
+  opacity: 1;
+}
+
+.text-typo-mini-gal {
+  color: white;
+  font-family: "roboto";
+  text-align: center;
+  font-size: 16px;
+  padding: auto;
+}
+
+
+
+
+
+
+

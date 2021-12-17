@@ -1,0 +1,36 @@
+
+
+/* HOME */
+  
+.mediacontent-home{
+
+    color: white;
+    font-family: "roboto", sans-serif;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.6;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+    
+.media-container-flipped-home{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 15px 25px 15px 25px;
+  flex-direction: row-reverse;
+}
+
+.media-container-flipped-home .mediacontent-home{
+    flex: 1 ;
+    padding: 20px;
+} 
+
+
+
+

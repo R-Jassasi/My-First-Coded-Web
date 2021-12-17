@@ -1,13 +1,17 @@
 header {
       
 
-  padding: 10% 0 10% 0;
+  padding: 5% 0 10% 0;
 
     /* https://alvarotrigo.com/blog/how-to-create-websites-fullscreen-sections-html-and-css/ */
     /* FULLSCREEN */
   min-height: 100vh;
   width: 100%;
     
+}
+
+header h1{
+    padding-top: 10%;
 }
 
 
@@ -32,6 +36,7 @@ body{
       
     background-color: #121212;
     max-width: 100%;
+    overflow-x: hidden;
   
 }
 
@@ -50,7 +55,7 @@ h1{
     text-align: center;
     font-size: 100px;
     margin: 0;
-    padding-top: 300px;
+    
 }
 
 
@@ -59,8 +64,6 @@ h2{
       font-size: 50px;
       font-weight: 500;
       margin: 0;
-      padding-top: 50px;
-      padding-bottom: 50px;
 }
 
 
@@ -69,18 +72,14 @@ h3{
       font-size: 80px;
       font-weight: 300;
       margin: 0;
-      padding-top: 5px;
-      padding-bottom: 50px;
 }
 
 
 h4{
       text-align: center;
-      font-size: 2.5vw;
+      font-size: 40px;
       font-weight: 600;
       margin: 0;
-      padding-top: 40px;
-      padding-bottom: 40px;
 }
 
 
@@ -89,19 +88,17 @@ h5{
       font-size: 30px;
       font-weight: 300;
       margin: 0;
-      padding-top: 30px;
-      padding-bottom: 30px;
+    
 }
 
 
 
 h6{
       text-align: center;
-      font-size: 1.5vw;
+      font-size: 20px;
       font-weight: 700;
       margin: 0;
-      padding-top: 30px;
-      padding-bottom: 30px;
+   
 }
   
 
@@ -111,11 +108,11 @@ p {
     color: white;
     font-family: "roboto", sans-serif;
     text-align: center;
-    font-size: 2vw;
+    font-size: 16px;
     font-weight: 300;
     line-height: 1.6;
     letter-spacing: 3px;
-    padding: 10px 100px 10px 100px;
+   
 }
 
 .center-content-vert{
@@ -138,6 +135,20 @@ p {
     padding: 0px 20px 0px 20px;
     margin: auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* NAVIGATION https://www.sliderrevolution.com/resources/css-menu/ */
       
@@ -272,167 +283,7 @@ nav .start-contact, a:nth-child(7):hover~.animation {
 }
 
 
-/* HOME */
-  
-.mediacontent-home{
 
-    color: white;
-    font-family: "roboto", sans-serif;
-    text-align: right;
-    font-weight: 300;
-    line-height: 1.6;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-}
-
-    
-.media-container-flipped-home{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding: 50px 30px 50px 30px;
-    margin: 30px 50px 30px 50px;
-    flex-direction: row-reverse;
-}
-
-.media-container-flipped-home .mediacontent-home{
-    flex: 1 ;
-    padding: 50px;
-} 
-
-
-
-
-
-
-/* CARP.html */
-  
-.carp-big-poster{
-    height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-
-
-
-
-/* TYPO */
-
-/* responsive gallery */
-/* https://www.w3schools.com/css/css3_images.asp */
-
-div.gallery {
-  border: 0;
-  padding: auto 5px auto 5px;
-}
-
-div.gallery:hover {
-  transform: scale(0.9, 0.9);
-  transition-duration: .4s;
-  transition-timing-function: ease-in-out;
- 
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-  color: white;
-  font-family: "roboto", sans-serif;
-  font-weight: 300;
-  line-height: 1.6;
-  text-transform: uppercase;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-#typo-gallery{
-    margin: 10% 15% auto 15%;
-}
-
-#typo-gallery-mini{
-    margin: auto 15% auto 15%;
-}
-
-.container-typo-mini-gal {
-  position: relative;
-  width: 400px;
-  padding: 20px 40px 20px 40px;
-  
-}
-
-/* mini gallery */
-/* https://www.w3schools.com/css/css3_images.asp */
-.image-typo-mini-gal {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-
-.middle-typo-mini-gal {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.container-typo-mini-gal:hover .image-typo-mini-gal {
-  opacity: 0.3;
-}
-
-.container-typo-mini-gal:hover .middle-typo-mini-gal {
-  opacity: 1;
-}
-
-.text-typo-mini-gal {
-  color: white;
-  font-family: "roboto";
-  text-align: center;
-  font-size: 16px;
-  padding: auto;
-}
 
 
 
@@ -496,6 +347,26 @@ footer{
     transition: .4s ease;
 }
 
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+    header{
+        padding: 50px,0,0;
+    }
+   
+  }
+  
+  @media only screen and (max-width: 500px) {
+    header{
+        padding: 20px, 0, 0;
+    }
+   
+    
+  }
+  
 
 
 
