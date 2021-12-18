@@ -1,0 +1,23 @@
+.butt {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button{
+    margin: 20px 0 20px 0;
+    height: 150px;
+    width: 100vh;
+    font-size: 40px;
+    font-family: "futura-pt";
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    background-color:black;
+}
