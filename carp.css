@@ -1,7 +1,6 @@
 
 
-/* CARP.html */
-  
+/* CARP.html */  
 .carp-big-poster{
     height: 600px;
     display: flex;
@@ -11,4 +10,19 @@
 }
 
 
+
+
+.small-poster {
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img{
+    padding: 20px 20px 20px 20px;
+}
 
