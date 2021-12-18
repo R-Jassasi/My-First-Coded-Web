@@ -33,4 +33,55 @@
 
 
 
+/* GALLERY */
+
+.gal-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 20px 0;
+}
+
+
+.wrapper {
+  position: relative;
+  flex-grow: 1;
+  margin: 20px 0 170px 0;;
+  max-width: 1200px;
+  max-height: auto;
+  
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 2vmin;
+  justify-items: center;
+  align-items: center;
+}
+
+img {
+  z-index: 1;
+  grid-column: span 2;
+  max-width: 100%;
+  margin-bottom: -52%;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  transform: scale(1);
+  transition: all .25s;
+  filter: grayscale(100%);
+
+}
+  
+img:nth-child(7n + 1) {
+    grid-column: 2 / span 2;
+}
+  
+img:hover {
+    z-index: 2;
+    transform: scale(2);
+     filter: grayscale(0%);
+
+}
+
+
+
+
 

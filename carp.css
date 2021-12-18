@@ -2,7 +2,7 @@
 
 /* CARP.html */  
 .carp-big-poster{
-    height: 600px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,10 +13,9 @@
 
 
 .small-poster {
-    height: 800px;
+    width: 100%;
+    height: auto;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -24,5 +23,18 @@
 
 img{
     padding: 20px 20px 20px 20px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
 }
 
+
+.container-carp{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    padding: 20px 40px 20px 40px;
+    height: auto;
+    
+}
