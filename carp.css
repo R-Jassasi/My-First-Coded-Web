@@ -29,6 +29,14 @@ img{
 }
 
 
+img:hover {
+    transform: scale(0.95, 0.95);
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+   
+  }
+
+
 .container-carp{
     display: flex;
     flex-wrap: wrap;
