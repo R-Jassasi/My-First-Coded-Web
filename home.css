@@ -82,6 +82,13 @@ img:hover {
 
 }
 
+img:active{
+  clip-path: none;
+  filter: none;
+}
+
+
+
 
 
 
